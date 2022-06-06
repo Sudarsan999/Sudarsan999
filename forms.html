@@ -1,0 +1,91 @@
+<html>
+<head> 
+    <!-- CSS only -->
+    <style> #formname {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+    }
+    </style>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" 
+rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</head>
+<body background="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnRWI3lX3z1xPbRKWseNoMK1V5fdJpNDnV_w&usqp=CAU">
+    
+    <div class="container">
+        <h1 id="formname"> Registration Form</h1> 
+          
+    <form>
+
+
+       <div > <label class="col-4">Name</label>
+        <input class="col-8" type="text" placeholder="---Name---"/></div>
+       <div> <label class="col-4">Father Name</label>
+        <input type="text" class="col-8" placeholder="---Father Name---"/></div>
+       <div > <label class="col-4">Mother Name</label>
+        <input type="text" class="col-8" placeholder="---Mother Name---"/></div>
+      <br> <div class="row">  <label class="col-2">Age</label>
+        <input type="number" class="col-3"/></div>
+      <br> <div class="row"> <label class="col-1" >Gender</label>
+        <input type="radio" name="gender" value="male" class="col-1" />
+        <label  class="col-1">Male</label>
+        <input type="radio" name="gender" value="Female" class="col-1" />
+        <label class="col-1">Female</label>
+        <input type="radio" name="gender" value="other" class="col-1" />
+        <label class="col-1">other</label></div>
+      <br> <div class="row"><lable class="col-2">Date</lable>
+        <input type="datetime-local" class="col-3"/></div>
+      <br> <div class="row"> <label class="col-2"> Email Id</label>
+        <input type="email" class="col-3"/></div>
+       <br> <div class="row"> <label class="col-2">Address</label>
+        <input type="test" class="col-3"/></div>
+      <br> <div class="row"> <label class="col-2">country</label>
+        <input type="text" class="col-3"/></div>
+      <br> <div class="row"> <label class="col-2">State</label>
+         <select class="col-3"><option value="none">select state</option>
+            <option value="Andhra pradesh">Andhra pradesh</option>
+            <option value="punjab">punjab</option>
+            <option value="kerla">kerla</option>
+            <option value="Haryana">Haryana</option>
+            <option value="Bihar">Bihar</option>
+            <option value="Telangana">Telangana</option>
+        </select></div>
+       <br><div class="row"> <label class="col-2">Pin code</label>
+        <input type="number" class="col-3"/></div>
+      <br> <div class="row"> <label class="col-2">Mobile Number</label>
+        <input type="number" class="col-3"/></div>
+      <br> <div class="row"> <lable class="col-2" > Course</lable>
+        <select class="col-3"><option value="none">select course</option>
+            <option value="B-TECH">B-TECH</option>
+            <option value="BBA">BBA</option>
+            <option value="B.COM">B.COM</option>
+            <option value="BCA">BCA</option>
+            <option value="B.Sc">B.Sc</option>
+            </select>
+              
+            <input type="number"  placeholder="Year of completion" class="col-3 ms-3"/></div>
+
+
+      <br> <div class="row"> <label class="col-2">Upload Image</label>
+        <input type="file" accept="image/png,image/jpg" class="col-3" /></div>
+       <br> <input type="submit"/>
+       <input type="reset"/>
+         
+
+
+
+
+ 
+
+
+    </form>
+    </div>
+
+
+
+</body>
+
+</html>
